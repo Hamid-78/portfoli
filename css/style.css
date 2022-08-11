@@ -1,0 +1,325 @@
+/*Basic Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --primary-font:'Poppins', sans-serif;;
+    --secondary-font: 'Playfair Display', serif;;
+    --primary-color: #FFFFFF;
+}
+.align-center{
+    align-items: center;
+}
+.btn{
+    padding: 15px 25px;
+    background-color: #676CDB;
+    color: var(--primary-color);
+    display: inline-block;
+}
+
+
+body{
+    font-family:  'Poppins', sans-serif;
+}
+/*Basic Css ends*/
+/*banner starts*/
+/*banner ends*/
+
+#banner{
+    background-image: url(../img/background.png);
+    
+    height: 740px;
+    background-size: cover;
+}
+#banner .banner-text{
+    width: ;
+    text-align: justify;
+    padding: 140px 0;
+}
+#banner .banner-text h1{
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 120%;
+    color: var(--primary-color);
+
+}
+#banner .banner-text p{
+    font-weight: 400;
+    font-size: 20px;
+    color:  rgba(255, 255, 255, 0.5);
+    line-height: 180%;
+    text-align: justify;
+    width: 404px
+    
+}
+#banner .banner-text p span{
+    color: var(--primary-color);
+}
+#banner .banner-text .button{
+   padding: 30px 0;
+}
+#banner .banner-text .button a{
+    color: var(--primary-color);
+    margin: 0 10px ;
+   
+}
+/*banner ends*/
+
+
+
+/*nav starts*/
+nav{
+    position: absolute;
+    top: 0;
+}
+
+nav .logo{
+    width: 20%;
+    text-align: center;
+   
+}
+nav .menu{
+    width: 60%;
+    align-items: center;
+    
+ 
+}
+
+nav .contact{
+    width: 20%;
+    display: block;
+    
+    text-align: right;
+}
+nav .menu ul{
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+  
+}
+nav .menu ul li button{
+    text-align: right;
+}
+nav .menu ul li a{
+    display: block;
+    padding: 41px 18px;
+    font-weight: 500;
+    color: var(--primary-color);
+    font-size: 20px;
+    transition: 0.3s;
+    
+}
+/*nav ends*/
+
+
+/*icons starts*/
+
+.icons{
+    background-color: #000000;
+}
+.icons a{
+    padding: 50px 70px;
+}
+/*icons endss*/
+
+
+/*experience starts*/
+#Experience{
+    background-color: #222A36;
+}
+#Experience .experience-text{
+    width: 10%;
+    padding: 160px 0 210px 0;
+    
+}
+#Experience .experience-text h1{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120%;
+    color: #676CDB;
+}
+#Experience .experience-text h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary-color);
+    line-height: 180%;
+}
+#Experience .experience-cnt{
+   width: 90%;
+   padding: 110px 0 100px 100px;
+ 
+}
+#Experience .experience-cnt .text h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 180%;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+#Experience .experience-cnt .Experience-card .card{
+   width: 288px;
+   height: 295px;
+   background: #C4C4C4;
+   margin-left: 20px;
+   transition: 0.5s;
+}
+#Experience .experience-cnt .Experience-card .card:hover {
+    background: #676CDB;
+    color: var(--primary-color);
+}
+
+#Experience .experience-cnt .Experience-card .card:hover .card-cnt {
+    color: var(--primary-color);
+}
+ .Experience-card .card .card-cnt{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #222A36;
+    padding: 170px 150px 25px 20px;
+}
+/*experience ends*/
+
+
+/*about starts*/
+#about{
+    padding: 110px;
+    background: rgba(34, 42, 54, 0.95);
+   
+}
+#about .about-img{
+    width: 894px;
+    padding-right: 100px;
+    
+}
+#about .about-img .img{
+    width: 50%;
+    padding-right: 20px;
+}
+#about .about-img .text{
+    width: 50%;
+    margin: 25px 0;
+} 
+#about .about-img .img img{
+    width: 100%;
+    height: 391px;
+    margin-right: 40px;
+    display: block;
+}
+#about .about-img .text p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    
+}
+#about .about-text{
+    width: 194px;
+}
+#about .about-text h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+#about .about-text h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%; 
+    font-family: var(--secondary-font);
+    color: #676CDB;
+}
+/*about ends*/
+
+
+/*contact starts*/
+#contact{
+    background-color: #000000;
+    padding: 105px 0 150px 0;
+}
+#contact .social{
+    width: 70%;
+
+}
+#contact .social h1{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120%;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+#contact .social ul li{
+    display: inline-block;
+    padding: 30px 40px 0 0;
+}
+
+#contact .address{
+    width: 30%;
+   
+   
+    
+}
+#contact .address p{
+    display: block;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+    font-family: var(--primary-font);
+    margin-bottom: 
+   
+ 
+}
+#contact .address input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #676CDB;
+    border-radius: 4px;
+  }
+
+
+#contact .address a{
+    color: #676CDB;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+}
+#contact .address span{
+    color: #676CDB;
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+/*contact ends*/
+
+
+
+
+
+
+
